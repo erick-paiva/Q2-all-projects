@@ -1,0 +1,15 @@
+input{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+button{
+    margin-left: 10px;
+    height: 33px;
+    border: none;
+    cursor: pointer;
+    background: rgba(0, 89, 255, 0.774);
+    border-radius: 8px;
+    color: white;
+}

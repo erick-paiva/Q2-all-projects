@@ -1,0 +1,22 @@
+.pesquisar {
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 100%;
+    border: none;
+    height: 30px;
+    border-radius: 8px;
+    padding-left: 10px;
+    outline: none;
+}
+button{
+    border-radius: 8px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    background: rgb(21, 196, 114);
+    color: brown;
+    font-weight: bold;
+    margin-left: 10px;
+}

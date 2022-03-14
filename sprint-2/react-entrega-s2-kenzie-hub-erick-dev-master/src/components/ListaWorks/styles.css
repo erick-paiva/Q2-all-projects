@@ -1,0 +1,8 @@
+.itensWorks .iconWork{
+  width: 71px;
+  height: 77px;
+  background-image: url("../../assets/jobs.svg")
+}
+.itensWorks:hover .iconWork{
+  background-image: url("../../assets/iconWork.svg") ;
+}

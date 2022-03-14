@@ -1,0 +1,36 @@
+.itensTech {
+    border-right: 4px solid #F5F5F5;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+.itensTech div {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+h5 {
+  color: #11995e;
+  display: flex;
+  height: 30px;
+  background: #e7f5ef;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  font-weight: 600;
+}
+  .itensTech .imgTec{
+    width: 71px;
+    height: 77px;
+    background-image: url("../../assets/tec.svg")
+  }
+  .itensTech:hover .imgTec{
+    background-image: url("../../assets/iconTech.svg")
+    
+  } 
+  .itensTech:hover{
+    border-right: 4px solid #11995e;
+  }

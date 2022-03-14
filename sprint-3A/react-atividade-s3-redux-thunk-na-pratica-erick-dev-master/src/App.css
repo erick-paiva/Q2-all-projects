@@ -1,0 +1,19 @@
+.App-header {
+  background: rgb(0, 93, 214);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.container {
+  padding: 30px;
+  background: rgb(0, 164, 214);
+  border-radius: 10px;
+  box-shadow: 7px 7px 8px 6px rgb(0 0 0 / 65%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,96 @@
+#containerTechModalLista {
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+#containerTechModalLista .TechModalLista{
+  margin: 0;
+  padding: 15px;
+  background: white;
+  border-radius: 5px;
+}
+.TechModal input{
+  padding-left: 10px;
+  width: 100%;
+  background: #F5F5F5;
+  border: none;
+  height: 40px;
+  margin-bottom: 25px;
+}
+.TechModal h3{
+  font-size: 13px;
+}
+#containerTechModalLista .tituloCadastrarLista{
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 0 15px;
+}
+.listaTechUl{
+  display: flex;
+  margin: 15px 0;
+  font-size: 14px;
+}
+.listaTechUl li{
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--azul);
+  padding: 8px;
+  height: 40px;
+  margin-right: 10px;
+}
+.listaTechUl li:hover{
+  background: rgba(78, 71, 255, 0.1);
+}
+.TechModal button{
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  background: var(--azul);
+  color: white;
+  font-weight: bold;
+}
+#botoesEditar{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+#botoesEditar .bt1{
+  background: var(--verde);
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  cursor: pointer;
+  height: 40px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+#botoesEditar .bt1:hover{
+  border: 2px solid #333333;
+}
+#botoesEditar .bt2{
+  background: var(--branco);
+  font-weight: bold;
+  color: black;
+  width: 50%;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+#botoesEditar .bt2:hover{
+  border: 2px solid #333333;
+}

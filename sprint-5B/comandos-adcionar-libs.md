@@ -1,0 +1,15 @@
+exemplo adcionar lib = yarn add nome-biblioteca
+Adcionar react = yarn create react-app {nome do seu projeto}
+Adcionar react template typescript = yarn create react-app "seu_projeto" --template typescript
+Adcionar react router dom = yarn add react-router-dom@5 com template typescript = @types/react-router
+Adcionar yup = yarn add yup react-hook-form @hookform/resolvers
+Adcionar style components = yarn add styled-components
+adcionar framer motion = yarn add framer-motion@4.1.17
+adcionar Axios = yarn add axios
+adcionar react icons = yarn add react-icons
+adcionar materiu Ui = yarn add @material-ui/core@next @emotion/react @emotion/styled
+adcionar redux e redux thunck = yarn add redux react-redux redux-thunk
+adcionar axios mock = axios-mock-adapter
+adcionar cypress E2E = yarn add cypress
+instalar plugin do cypress = yarn add cypress eslint-plugin-cypress --dev
+fazer deploy no vercel = vercel --prod

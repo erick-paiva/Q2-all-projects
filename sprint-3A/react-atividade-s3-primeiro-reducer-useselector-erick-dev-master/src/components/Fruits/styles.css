@@ -1,0 +1,15 @@
+.fruits {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    padding: 0 5px;
+    align-items: center;
+}
+.fruits img{
+    height: 50px;
+}
+.fruits p{
+    margin-right: 15px;
+}

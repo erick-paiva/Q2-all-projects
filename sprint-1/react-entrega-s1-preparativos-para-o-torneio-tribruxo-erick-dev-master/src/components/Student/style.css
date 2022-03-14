@@ -1,0 +1,61 @@
+figure{
+    margin: 15px 0 0;
+}
+figure img{
+    width: 211px;
+    height: 183px;
+    border-radius: 15px;
+    background-color: yellowgreen;
+    /* border: 5px solid rgb(209, 247, 41); */
+}
+li {
+    width: 85vw;
+    height: 440px;
+    margin: 22px 0;
+    background-color: #00000075;
+    border-radius: 5px;
+}
+h2{
+   
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+h3{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+p{
+    margin: 0;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(109, 184, 66);
+}
+.Gryffindor{
+    border: 5px solid red;
+}
+.Slytherin{
+    border: 5px solid green;
+}
+.Hufflepuff{
+    border: 5px solid yellow;
+}
+.Ravenclaw{
+    border: 5px solid blue;
+}
+@media (min-width: 1024px) {
+    li {
+        width: 330px;
+        height: 635px;
+    }
+    figure img{
+        width: 280px;
+        height: 390px;
+    }
+}

@@ -1,0 +1,267 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 165px;
+  background: #f5f5f5;
+  flex-direction: column;
+  align-items: center;
+}
+header h1 {
+  font-size: 35px;
+}
+.caixaPesquisa {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e0e0e0;
+  width: 90vw;
+  height: 60px;
+}
+.caixaPesquisa button {
+  background: #27ae60;
+  width: 107px;
+  height: 40px;
+  color: white;
+  margin-right: 10px;
+  border: 2px solid #27ae60;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+.caixaPesquisa input {
+  height: 60px;
+  padding: 0px 10px 0px 15px;
+  width: 100%;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+}
+.secaoCarrinho {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.carrosel {
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 99vw;
+}
+.resultadoBusca {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.resultadoBusca span {
+  font-style: normal;
+  color: #828282;
+}
+.tituloHamburgueria span {
+  color: #eb5757;
+  font-size: 20px;
+}
+.divCarrinho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  width: 92vw;
+}
+.secaoCarrinho h3 {
+  line-height: 3rem;
+  background-color: #27ae60;
+  height: 50px;
+  width: 90vw;
+  padding-left: 15px;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+  margin: 0;
+  font-size: 18px;
+}
+.carrinho {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  border-bottom: 2px solid #e0e0e0;
+  margin: 0;
+}
+.carrinhoFilho {
+  display: flex;
+  border: none;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 15px 0;
+  height: 80px;
+}
+.carrinhoFilho figure {
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  background: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.carrinhoFilho img {
+  width: 70px;
+  height: 70px;
+}
+.removerTodos {
+  width: 85vw;
+  height: 60px;
+  line-height: 3.3rem;
+  text-align: center;
+  background-color: #e0e0e0;
+  color: #828282;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.carrinhoVazio {
+  width: 85vw;
+  text-align: center;
+}
+.carrinhoVazio h4 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+}
+.carrinhoVazio h5 {
+  color: #828282;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.totalCompra {
+  margin: 20px 0;
+  display: flex;
+  align-content: space-between;
+  width: 85vw;
+  justify-content: space-between;
+}
+.totalCompra span{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+.descricaoProdutoCarrinho h4 {
+  margin: 0;
+  color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+.descricaoProdutoCarrinho span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #828282;
+}
+.removerProduto {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #bdbdbd;
+  cursor: pointer;
+  width: 58px;
+  margin-right: 10px;
+}
+.descricaoProdutoCarrinho {
+  margin-left: 15px;
+}
+.imgCarrinho {
+  display: flex;
+}
+.total{
+  color: #828282;
+}
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .caixaPesquisa {
+    width: 40vw;
+    margin-right: 15px;
+  }
+  .caixaPesquisa button {
+    width: 107px;
+    height: 40px;
+  }
+  header h1 {
+    margin: 0 0 0 70px;
+  }
+  .secaoCarrinho {
+    width: 363px;
+    margin: 20px 30px 0 0;
+  }
+  .secaoCarrinho h3 {
+    width: 335px;
+  }
+  .carrinho {
+    width: 100%;
+  }
+  .divCarrinho {
+    width: 320px;
+    padding: 0 15px;
+  }
+  .carrinhoFilho {
+    width: 100%;
+  }
+  .totalCompra {
+    width: 100%;
+  }
+  .removerTodos {
+    width: 100%;
+  }
+  .carrinhoVazio {
+    width: 100%;
+  }
+  .carrosel {
+    display: flex;
+    width: auto;
+    margin-top: 20px;
+  }
+  .areaCompras {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,49 @@
+#ContainerWork{
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+#ContainerWork .tituloCadastrar{
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 15px;
+}
+#containerButton{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+#ContainerWork .bt1{
+  background: var(--verde);
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  cursor: pointer;
+  height: 40px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+#ContainerWork .bt1:hover{
+  border: 2px solid #333333;
+}
+#ContainerWork .bt2{
+  background: var(--branco);
+  font-weight: bold;
+  color: black;
+  width: 50%;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+#ContainerWork .bt2:hover{
+  border: 2px solid #333333;
+}

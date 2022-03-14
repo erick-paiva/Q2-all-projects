@@ -1,0 +1,30 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    width: 80vw;
+}
+li{
+    margin: 0 5px 15px;
+    width: 370px;
+    height: 410px;
+    border-radius: 20px;
+}
+h2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 31px;
+    padding: 0 30px;
+}
+.Alive{
+    background: #66ffffcf;
+}
+.Dead{
+    background:rgb(209, 85, 85);
+}
+.unknown{
+    background: rgb(228, 228, 89);
+}

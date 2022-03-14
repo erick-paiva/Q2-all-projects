@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@gmail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Hamburguer",
+      "category": "Sanduíches",
+      "price": 14.0,
+      "img": "https://i.ibb.co/fpVHnZL/hamburguer.png",
+      "amount": 1
+    },
+    {
+      "id": 2,
+      "name": "X-Burguer",
+      "category": "Sanduíches",
+      "price": 16.0,
+      "img": "https://i.ibb.co/djbw6LV/x-burgue.png",
+      "amount": 1
+    },
+    {
+      "id": 3,
+      "name": "Big Kenzie",
+      "category": "Sanduíches",
+      "price": 18.0,
+      "img": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
+      "amount": 1
+    },
+    {
+      "id": 4,
+      "name": "Fanta Guaraná",
+      "category": "Bebidas",
+      "price": 5.0,
+      "img": "https://i.ibb.co/cCjqmPM/fanta-guarana.png",
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "name": "Coca",
+      "category": "Bebidas",
+      "price": 4.99,
+      "img": "https://i.ibb.co/fxCGP7k/coca-cola.png",
+      "amount": 1
+    },
+    {
+      "id": 6,
+      "name": "Fanta",
+      "category": "Bebidas",
+      "price": 4.99,
+      "img": "https://i.ibb.co/QNb3DJJ/milkshake-ovomaltine.png",
+      "amount": 1
+    }
+  ],
+  "cart": []
+}

@@ -1,0 +1,101 @@
+#root{
+  display: flex;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #1F1F1F;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url(https://initiate.alphacoders.com/images/114/stretched-1366-768-1147171.jpg?4863);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.menuInicial {
+  display: flex;
+  width: 75vw;
+  height: 56vh;
+  background-color: #000000a8;
+  border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px 0 15px;
+}
+.menuInicial h1{
+ 
+  font-size: 34px;
+  color: aqua;
+  font-weight: 600;
+  text-align: center;
+
+}
+.menuInicial h4{
+  font-size: 24px;
+  text-align: center;
+}
+.botaoComecar{
+  width: 200px;
+  height: 80px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-size: 30px;
+  background-color: yellow;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  color: black;
+}
+.botao{
+  width: 200px;
+  height: 80px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-size: 30px;
+  background-color: yellow;
+  margin: 5px 0 50px;
+  border-radius: 15px;
+  color: black;
+}
+
+@media (min-width: 1024px) {
+  #root{
+    display: block;
+  }
+ 
+  .botao{
+    margin-top: 50px;
+  }
+  .menuInicial{
+    width: 700px;
+    height: 500px;
+  }
+  .menuInicial h1 {
+    font-size: 70px;
+    margin: 0;
+  }
+  .menuInicial h4{
+    font-size: 30px;
+    margin: 50px 0 30px 0;
+  }
+
+  .botaoComecar {
+    width: 400px;
+    height: 60px;
+  }
+  .botao{
+    width: 400px;
+    height: 60px;
+  }
+}

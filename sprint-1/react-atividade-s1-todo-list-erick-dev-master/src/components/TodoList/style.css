@@ -1,0 +1,25 @@
+ul{
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    min-width: 380px;
+    justify-content: space-between;
+    background-color: sienna;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    padding: 0 15px;
+    height: 32px;
+    align-items: center;
+}
+li button{
+    margin-left: 15px;
+    border-radius: 9px;
+    color: red;
+    font-size: 12px;
+    background-color: #c9f376;
+    cursor: pointer;
+    height: 24px;
+}

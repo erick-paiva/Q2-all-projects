@@ -1,0 +1,38 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.controles{
+  margin-top: 50px;
+}
+.anterior{
+  width: 120px;
+  height: 50px;
+  margin-right: 50px;
+  background: red;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+.anterior:active{
+  background: cadetblue;
+}
+.proximo{
+  width: 120px;
+  height: 50px;
+  background: yellowgreen;
+  color: brown;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+.proximo:active{
+  background: burlywood;
+}

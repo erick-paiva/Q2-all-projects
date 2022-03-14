@@ -1,0 +1,40 @@
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 255px;
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    box-shadow: 7px 8px 7px black;
+    border-radius: 16px;
+}
+input {
+  width: 255px;
+ 
+  outline: rgb(78, 225, 65);
+  border: 2px solid green;
+  color: blue;
+}
+input:focus{
+    border: 2px solid crimson;
+}
+span{
+    margin: 15px 0 15px;
+    font-size: 14px;
+    color: brown;
+}
+button {
+    width: 90px;
+    height: 25px;
+    background-color: rosybrown;
+    color: #00ff07;
+    font-weight: bold;
+    border: 1px solid black;
+    margin: 20px 0 20px;
+    border-radius: 8px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(216, 179, 179) ;
+}

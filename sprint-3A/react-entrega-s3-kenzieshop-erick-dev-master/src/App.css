@@ -1,0 +1,12 @@
+.App-header {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: rgb(254 248 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+

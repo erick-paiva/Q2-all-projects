@@ -1,0 +1,16 @@
+h3{
+    font-family: sans-serif;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(19, 87, 126);
+    color: white;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+}
+input{
+    height: 26px;
+}

@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.divFrutas{
+  display: flex;
+  width: 400px;
+
+  justify-content: space-evenly;
+
+}
+.divFrutas button{
+  font-weight: bold;
+  color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  border:none;
+  cursor:pointer;
+  filter: brightness(0.7);
+}
+.divFrutas button:hover{
+  filter: brightness(1);
+}
+.todas{
+  background-color: #00ca00;
+  
+}
+.vermelhas{
+  background-color: #fb6161;
+}
+.amarelas{
+  background-color: #ffd000;
+}

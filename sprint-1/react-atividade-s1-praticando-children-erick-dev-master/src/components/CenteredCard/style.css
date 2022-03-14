@@ -1,0 +1,10 @@
+.CenteredCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    width: 270px;
+    height: 150px;
+    color: rgb(6, 6, 75);
+    background-color: rgb(159, 20, 214);
+}

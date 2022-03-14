@@ -1,0 +1,33 @@
+.dadosUser {
+    display: flex;
+    background-color: #289dd1;
+    border: 3px dashed red;
+    padding: 20px 15px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: black;
+    margin: 5px 0 15px 0;
+}
+.voltar {
+    width: 160px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #8100ff;
+    background-color: darkblue;
+}
+a{
+    text-decoration: none;
+    color: chartreuse;
+    background-color: darkblue;
+}
+.dadosUser p{
+    color: aquamarine;
+}
+.detalhes{
+    color: rgb(255, 236, 127);
+    font-weight: 600;
+    font-style: italic;
+}

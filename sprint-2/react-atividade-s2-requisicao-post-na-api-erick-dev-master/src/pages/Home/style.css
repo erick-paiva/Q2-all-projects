@@ -1,0 +1,29 @@
+.container{
+    min-height: 200px;
+    min-width: 230px;
+    background-color: cadetblue;
+    box-shadow: 7px 8px 7px black;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 130px;
+    height: 26px;
+    color: chartreuse;
+    background-color: chocolate;
+    border-radius: 8px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+h3{
+    color: crimson;
+    font-size: 21px;
+    font-weight: 700;
+}

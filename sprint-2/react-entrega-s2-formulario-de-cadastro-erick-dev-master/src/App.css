@@ -1,0 +1,23 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: sans-serif;
+    background-image: url("https://initiate.alphacoders.com/images/118/stretched-1366-768-1188019.jpg?7426");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.msgSucesso{
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+}
+.msgErro{
+    color: red;
+    text-decoration: underline;
+}

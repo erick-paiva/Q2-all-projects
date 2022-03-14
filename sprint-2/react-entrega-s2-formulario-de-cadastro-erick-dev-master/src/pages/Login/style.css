@@ -1,0 +1,93 @@
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 380px;
+    background-color: rgba(29, 214, 190, 0.986);
+    text-align: center;
+    align-items: center;
+    box-shadow: 7px 8px 7px black;
+    border-radius: 16px;
+    justify-content: space-around;
+}
+.titulo{
+    color: #3951b2;
+}
+
+.efeitoPreenchimento {
+  position: relative;
+  padding-top: 13px;
+  display: flex;
+  flex-direction: column;
+}
+.efeitoPreenchimento input {
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: none;
+  width: 240px;
+  font-size: 16px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-appearance: none;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.efeitoPreenchimento input:focus {
+  border-bottom: 2px solid #43b239;
+}
+
+.efeitoPreenchimento input::placeholder {
+  color: transparent;
+}
+
+.efeitoPreenchimento label {
+  pointer-events: none;
+  position: absolute;
+  top: 14px;
+  left: 0;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  color: rgb(9, 16, 78);
+  font-size: 15px;
+}
+
+.efeitoPreenchimento input:required:invalid + label {
+  color: red;
+}
+.efeitoPreenchimento input:focus:required:invalid {
+  border-bottom: 2px solid red;
+}
+.efeitoPreenchimento input:required:invalid + label:before {
+  content: "*";
+}
+.efeitoPreenchimento input:focus + label,
+.efeitoPreenchimento input:not(:placeholder-shown) + label {
+  font-size: 13px;
+
+  top: -2px;
+  color: #3951b2;
+}
+
+span {
+   
+    font-size: 14px;
+    color: brown;
+    width: 244px;
+}
+button {
+  width: 90px;
+  height: 25px;
+  background-color: rosybrown;
+  color: #00ff07;
+  font-weight: bold;
+  border: 1px solid black;
+  margin: 20px 0 20px;
+  border-radius: 8px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(216, 179, 179);
+}

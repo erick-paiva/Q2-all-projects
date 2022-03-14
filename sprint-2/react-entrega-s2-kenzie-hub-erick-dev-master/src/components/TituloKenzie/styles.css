@@ -1,0 +1,12 @@
+.divTitulo span{
+    text-align: center;
+    background: var(--azul);
+    color: white;
+    padding: 1px 5px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.divTitulo{
+    font-size: 17px;
+    font-weight: bold;
+}
